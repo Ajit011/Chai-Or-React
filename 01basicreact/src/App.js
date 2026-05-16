@@ -2,9 +2,12 @@
 import Chai from "./Chai";
 function App() {
   return (
-    <div>
-      <Chai />
-    </div>
+    <>
+    <Chai />
+    </>
+      
+      
+    
   );
 }
 

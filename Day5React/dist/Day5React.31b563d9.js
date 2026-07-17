@@ -741,7 +741,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App":"hh6uc","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App":"f8V2Q","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -17395,24 +17395,24 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"hh6uc":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$4089 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$4089.init();
+},{"6f0162e9ab224cd4":"jMk1U"}],"f8V2Q":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$be2d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$be2d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4089.prelude(module);
+$parcel$ReactRefreshHelpers$be2d.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _home = require("./pages/Home");
+var _homeDefault = parcelHelpers.interopDefault(_home);
 function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Hello React \uD83D\uDE80"
-    }, void 0, false, {
-        fileName: "src/App.js",
-        lineNumber: 3,
-        columnNumber: 9
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+        fileName: "src/App.jsx",
+        lineNumber: 4,
+        columnNumber: 10
     }, this);
 }
 _c = App;
@@ -17420,12 +17420,255 @@ exports.default = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$4089.postlude(module);
+  $parcel$ReactRefreshHelpers$be2d.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./pages/Home":"cORsp","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cORsp":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$cb23 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$cb23.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cb23.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _homeCss = require("./Home.css");
+var _navbar = require("../components/Navbar");
+var _navbarDefault = parcelHelpers.interopDefault(_navbar);
+var _banner = require("../components/Banner");
+var _bannerDefault = parcelHelpers.interopDefault(_banner);
+var _categories = require("../components/Categories");
+var _categoriesDefault = parcelHelpers.interopDefault(_categories);
+var _productCard = require("../components/ProductCard");
+var _productCardDefault = parcelHelpers.interopDefault(_productCard);
+var _footer = require("../components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
+var _products = require("../data/products");
+var _productsDefault = parcelHelpers.interopDefault(_products);
+function Home() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Home.jsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bannerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Home.jsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _categoriesDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Home.jsx",
+                lineNumber: 18,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "products",
+                children: (0, _productsDefault.default).map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productCardDefault.default), {
+                        ...item
+                    }, item.id, false, {
+                        fileName: "src/pages/Home.jsx",
+                        lineNumber: 22,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "src/pages/Home.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/pages/Home.jsx",
+                lineNumber: 26,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
+_c = Home;
+exports.default = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$cb23.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"../components/Navbar":"e6no4","../components/Banner":"bC34B","../components/Categories":"eh343","../components/Footer":"lU1xT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../components/ProductCard":"a7k8E","../data/products":"1AEWj","react/jsx-dev-runtime":"dVPUn","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Home.css":"20I1J"}],"e6no4":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$e5e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$e5e7.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e5e7.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _navbarCss = require("./Navbar.css");
+function Navbar() {
+    const menuItems = [
+        {
+            id: 1,
+            title: "MEN"
+        },
+        {
+            id: 2,
+            title: "WOMEN"
+        },
+        {
+            id: 3,
+            title: "KIDS"
+        },
+        {
+            id: 4,
+            title: "HOME"
+        },
+        {
+            id: 5,
+            title: "BEAUTY"
+        },
+        {
+            id: 6,
+            title: "STUDIO",
+            isNew: true
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+        className: "navbar",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "MYNTRA"
+                }, void 0, false, {
+                    fileName: "src/components/Navbar.jsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                className: "menu",
+                children: menuItems.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: item.title
+                    }, item.id, false, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 22,
+                        columnNumber: 10
+                    }, this))
+            }, void 0, false, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: "\uD83D\uDD0D"
+                    }, void 0, false, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 29,
+                        columnNumber: 3
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        placeholder: "Search for products, brands and more"
+                    }, void 0, false, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 30,
+                        columnNumber: 3
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 28,
+                columnNumber: 3
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "icons",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "\uD83D\uDC64",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Profile"
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.jsx",
+                                lineNumber: 39,
+                                columnNumber: 5
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 37,
+                        columnNumber: 3
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "\u2764\uFE0F",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Wishlist"
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.jsx",
+                                lineNumber: 44,
+                                columnNumber: 5
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 42,
+                        columnNumber: 3
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        children: [
+                            "\uD83D\uDC5C",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Bag"
+                            }, void 0, false, {
+                                fileName: "src/components/Navbar.jsx",
+                                lineNumber: 49,
+                                columnNumber: 5
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Navbar.jsx",
+                        lineNumber: 47,
+                        columnNumber: 3
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Navbar.jsx",
+                lineNumber: 35,
+                columnNumber: 6
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Navbar.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_c = Navbar;
+exports.default = Navbar;
+var _c;
+$RefreshReg$(_c, "Navbar");
+
+  $parcel$ReactRefreshHelpers$e5e7.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Navbar.css":"btXQ4"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -19733,6 +19976,232 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequiree096", {}, null, null, "http://localhost:1234")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"btXQ4":[function() {},{}],"bC34B":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$6576 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$6576.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6576.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Banner() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Banner"
+    }, void 0, false, {
+        fileName: "src/components/Banner.jsx",
+        lineNumber: 2,
+        columnNumber: 10
+    }, this);
+}
+_c = Banner;
+exports.default = Banner;
+var _c;
+$RefreshReg$(_c, "Banner");
+
+  $parcel$ReactRefreshHelpers$6576.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eh343":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$07fc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$07fc.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$07fc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Categories() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Categories"
+    }, void 0, false, {
+        fileName: "src/components/Categories.jsx",
+        lineNumber: 2,
+        columnNumber: 10
+    }, this);
+}
+_c = Categories;
+exports.default = Categories;
+var _c;
+$RefreshReg$(_c, "Categories");
+
+  $parcel$ReactRefreshHelpers$07fc.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lU1xT":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$cfa1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$cfa1.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cfa1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Footer() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Footer"
+    }, void 0, false, {
+        fileName: "src/components/Footer.jsx",
+        lineNumber: 2,
+        columnNumber: 10
+    }, this);
+}
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$cfa1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"a7k8E":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$b8b5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$b8b5.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b8b5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _productCardCss = require("./ProductCard.css");
+var _s = $RefreshSig$();
+function ProductCard({ brand, title, price, discount, image }) {
+    _s();
+    const [liked, setLiked] = (0, _react.useState)(false);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-card",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: title
+            }, void 0, false, {
+                fileName: "src/components/ProductCard.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "product-info",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: brand
+                    }, void 0, false, {
+                        fileName: "src/components/ProductCard.jsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: title
+                    }, void 0, false, {
+                        fileName: "src/components/ProductCard.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "price",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                children: [
+                                    "\u20B9",
+                                    price
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/ProductCard.jsx",
+                                lineNumber: 17,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "discount",
+                                children: discount
+                            }, void 0, false, {
+                                fileName: "src/components/ProductCard.jsx",
+                                lineNumber: 18,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/ProductCard.jsx",
+                        lineNumber: 16,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "wishlist-btn",
+                        onClick: ()=>setLiked(!liked),
+                        children: liked ? "\u2764\uFE0F Wishlisted" : "\uD83E\uDD0D Add to Wishlist"
+                    }, void 0, false, {
+                        fileName: "src/components/ProductCard.jsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/ProductCard.jsx",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ProductCard.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_s(ProductCard, "5oFMLl0KA2P+7Df5hTCAaQ+yYE8=");
+_c = ProductCard;
+exports.default = ProductCard;
+var _c;
+$RefreshReg$(_c, "ProductCard");
+
+  $parcel$ReactRefreshHelpers$b8b5.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./ProductCard.css":"hGWKN","react":"jMk1U"}],"hGWKN":[function() {},{}],"1AEWj":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const products = [
+    {
+        id: 1,
+        image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500",
+        brand: "Roadster",
+        title: "Oversized T-Shirt",
+        price: 599,
+        discount: "40% OFF"
+    },
+    {
+        id: 2,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+        brand: "Nike",
+        title: "Running Shoes",
+        price: 2999,
+        discount: "30% OFF"
+    },
+    {
+        id: 3,
+        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+        brand: "Fastrack",
+        title: "Smart Watch",
+        price: 1999,
+        discount: "50% OFF"
+    }
+];
+exports.default = products;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"20I1J":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequiree096", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Day5React.31b563d9.js.map

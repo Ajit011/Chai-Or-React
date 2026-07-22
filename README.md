@@ -1,2 +1,0 @@
-# Chai-Or-React
-Test
